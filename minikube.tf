@@ -4,7 +4,7 @@ module "minikube" {
   aws_region    = "us-east-1"
   cluster_name  = "roboshop"
   aws_instance_type = "t3.medium"
-  ssh_public_key = "~/Users/lenovo/awspractice.pub"
+  ssh_public_key = "~/lenovo/awspractice.pub"
   aws_subnet_id = "subnet-06108d218328020e2"
   ami_image_id = "ami-b81dbfc5"#by default centos 7 will be used
   hosted_zone = "devops-practice.site"
